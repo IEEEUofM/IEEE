@@ -1,48 +1,4 @@
 ﻿
-/* ADDS BACKGROUND IMAGE TO JUMBOTRON */
-.divider {
-                background: url("../images/content_div_1.jpg") no-repeat center top;
-                background-size: cover;
-                color: #ccc;
-                height: 200px;
-          }
-
-@media only screen and (max-width : 992px) {
-        .divider {
-                    background-image: url("/images/content_div_1_800.jpg");
-                    height: 150px;
-                  }
-                                            }
-
-@media only screen and (max-width : 600px) {
-    .divider {
-        background-image: url("/images/content_div_1_500.jpg");
-        height: 150px;
-    }
-}
-/* ADDS BACKGROUND IMAGE TO JUMBOTRON */
-        .jumbotron-header {
-            background: url("/images/od_1600x250.jpg") no-repeat center top;
-            background-size: cover;
-            color: #fff;
-            text-shadow: 2px 2px 4px #666;
-            height: 325px;
-        }
-
-        @media only screen and (max-width : 992px) {
-            .jumbotron-header {
-                background-image: url("/images/od_800x150.jpg");
-                height: 250px;
-            }
-        }
-
-        @media only screen and (max-width : 600px) {
-            .jumbotron-header {
-                background-image: url("/images/od_500x250.jpg");
-                height: 250px;
-            }
-        }
-
 /* RESIZES P TEXT IN DIVIDER */
 .center {
     display: block;

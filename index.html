@@ -70,22 +70,33 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl10', 'ctl01', [], [], [], 
 
 
 
- <header class="navbar navbar-expand-md  fixed-top";> 
-     <div class="container">
-         <a class="navbar-brand">
-             <img src="./images/IEEE-Logo.png" alt="" width="92" height="26" /></a>
-         <button class="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-             <span class="navbar-toggler-icon"></span>
-         </button>
+<header class="navbar navbar-expand-md navbar-dark  fixed-top";> 
+    <div class="container">
+        <a class="navbar-brand">
+            <img src="/images/IEEE-Logo.png" alt="" width="92" height="26" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
 
-         <!--Section deals with navbar items -->
-         <div class="collapse navbar-collapse" id="navbarResponsive">
-             <ul class="navbar-nav" style="right: 0; left: auto;">
+        <!--Section deals with navbar items -->
+       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                   <ul class="navbar-nav">                      
 
-             </ul>
+                         <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             IEEE Membership
+                           </a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                             <a class="dropdown-item" href="https://www.ieee.org/membership/join/index.html" target="_blank">Sign Up</a>
+                             <a class="dropdown-item" href="#">Benefits</a>
+                             <a class="dropdown-item" href="#">Something else here</a>
+                           </div>
+                         </li>
+
+                   </ul>
          </div>
-     </div>
-</header>      
+    </div>
+</header>   
             
 
  <style>
@@ -135,13 +146,6 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl10', 'ctl01', [], [], [], 
         
     </style>
 
-    <!-- For the overlay,rgba(0, 0, 0, 0.x), rgba(0, 0, 0, 0.x) changing the "x" to a number controls it. -->
-
-
-
-
-
-
 
 
 
@@ -151,8 +155,8 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl10', 'ctl01', [], [], [], 
 
 
     <div class="container" style="padding-bottom: 40px;">
-        <h2 class="umBlue">UOfM Text</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, usu te laudem molestie interpretaris, cu suas harum duo. At vim quod nemore invidunt. Ne essent recusabo pro, eam at elitr nonumy</p>
+        <h2 class="umBlue">Mission</h2>
+        <p class="lead">We learn, connect, and innovate through our workshops, tours, and competitions.</p>
     </div>
 
 
@@ -191,7 +195,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl10', 'ctl01', [], [], [], 
 
 
     <section>
-        <div class="container" style="padding-top: 50px;">
+        <div class="container" style="padding-top: 50px; padding-bottom: 50px">
                 
             <h2 class="umBlue">IEEE OFFICERS</h2>
             
